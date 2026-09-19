@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "next lint"
   },
@@ -12,6 +12,7 @@
     "@arwes/react-animated": "^1.0.0-next.25020502",
     "@radix-ui/react-avatar": "^1.1.11",
     "@radix-ui/react-slot": "^1.2.3",
+    "@serwist/next": "^9.5.12",
     "@splinetool/react-spline": "^3.1.1",
     "@splinetool/runtime": "^1.10.40",
     "@tsparticles/engine": "^3.9.1",
@@ -32,6 +33,7 @@
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-element-to-jsx-string": "^17.0.1",
+    "serwist": "^9.5.12",
     "tailwind-merge": "^3.3.1",
     "uuid": "^13.0.0"
   },
@@ -41,6 +43,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/serviceworker": "^0.0.201",
     "eslint": "^9",
     "eslint-config-next": "15.4.3",
     "tailwindcss": "^4",
