@@ -27,6 +27,7 @@ const ExperienceCard = ({ title, institution, subtitle, logoImg, bgImg }: Experi
           src={bgImg} 
           alt={institution} 
           fill 
+          unoptimized={true}
           className="object-cover transition-transform duration-500 group-hover/card:scale-105 opacity-80" 
         />
         {/* Dark overlay for readability */}
@@ -49,6 +50,7 @@ const ExperienceCard = ({ title, institution, subtitle, logoImg, bgImg }: Experi
                 src={logoImg} 
                 alt={`${institution} logo`} 
                 fill 
+                unoptimized={true}
                 className="object-contain" 
               />
             </div>
